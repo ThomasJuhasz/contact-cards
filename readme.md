@@ -2,7 +2,7 @@
 
 A showcase of angular components
 
-### Instructions:
+### Setup
 
 1. Install npm dependencies
 `npm install` 
