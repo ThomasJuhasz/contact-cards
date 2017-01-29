@@ -1,0 +1,10 @@
+<h1>Dashboard</h1>
+
+<thj-top-contacts thj-limit="3" thj-on-select="vm.onSelectUser(user)"></thj-top-contacts>
+
+<thj-contact-detail ng-if="vm.selectedUser" thj-contact="vm.selectedUser"></thj-contact-detail>
+
+<thj-top-contacts thj-title="Name" thj-limit="2"></thj-top-contacts>
+
+<thj-top-contacts></thj-top-contacts>
+

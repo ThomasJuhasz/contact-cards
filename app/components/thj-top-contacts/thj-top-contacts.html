@@ -1,0 +1,11 @@
+<div class="top-contacts">    
+    <h3>Top  contacts</h3>
+
+    <ul class="thj-list">
+        <li ng-repeat="user in vm.users" ng-click="vm.onClick(user)" ng-class="{'has-action': vm.thjOnSelect}">
+            <thj-contact-card thj-data="user">
+        </li>
+    </ul>
+
+    <div class="clear"></div>
+</div>
